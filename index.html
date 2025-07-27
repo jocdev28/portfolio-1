@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JocDev | Portfolio</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="./profile.png" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation bar -->
+    <div class="navbar">
+      <div class="navlinks">
+         <!-- <div class="icon"></div> -->
+         <ul class="nav_list">
+            <li><a href="#hero" class="navlink">Home</a></li>
+            <li><a href="#resume" class="navlink">Resume</a></li>
+            <li><a href="#projects" class="navlink">Projects</a></li>
+            <li><a href="#about" class="navlink">About Me</a></li>
+         </ul>
+         <a href="mailto: jocdev28@gmail.com">
+            <button class="nav_btn">Contact me</button>
+         </a>
+      </div>
+    </div>
+
+   <!-- Hero Section -->
+    <section id="hero">
+      <div class="container hero_container">
+         <div class="profile_img">
+            <img src="./profile.png" alt="JocDev's Profile Picture" class="profile_pic">
+         </div>
+         <div class="info">
+            <div class="name">
+               <h1>Hi! I'm <span>JocDev</span></h1>
+               <p>A Front-end Developer</p>
+            </div>
+            <div class="contact_links">
+               <a href="https://www.linkedin.com/in/inioluwa-daniel-2119a9318/" target="_blank"><img src="./linkedin.svg" alt="LinkedIn Icon" class="linkicon"></a>
+               <a href="https://x.com/jocdev28" target="_blank"><img src="./twitter-x.svg" alt="X Icon" class="linkicon"></a>
+               <a href="https://www.youtube.com/channel/UCy4bTxuPlVPfs6lZU9t4XlA" target="_blank"><img src="./youtube.svg" alt="Youtube Icon" class="linkicon"></a>
+               <a href="https://github.com/jocdev28" target="_blank"><img src="./github.svg" alt="Github Icon" class="linkicon"></a>
+            </div>
+         </div>
+      </div>
+    </section>
+
+   <!-- Resume Section-->
+    <section id="resume">
+      <div class="resume_container">
+         <div class="resume_section">
+            <h3>Education</h3>
+            <h4 class="school">Babcock University</h4>
+            <p>BSc. Computer Science (2023 - 2027)</p>
+         </div>
+         <div class="resume_section skills">
+            <h3>Skills</h3>
+            <ul>
+               <li>HTML
+                  <div class="progress_container">
+                     <div class="progress html"></div>
+                  </div>
+               </li>
+               <li>CSS
+                  <div class="progress_container">
+                     <div class="progress css"></div>
+                  </div>
+               </li>
+               <li>JavaScript
+                  <div class="progress_container">
+                     <div class="progress js"></div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <!-- <div class="resume_section">
+            <h3>Experience</h3>
+            <p></p>
+         </div> -->
+         <!-- <div class="resume_section certificates">
+            <h3>Certificates / Achievements</h3>
+            <div>
+               <div class="certificate">
+                  <img src="./intro_to_c.png" alt="Tntroduction to C Programming Certificate" class="certificate_img">
+                  <p>Introduction to C Programming</p>
+               </div>
+               <div class="certificate">
+                  <img src="./intro_to_js.png" alt="Introduction to JavaScript Certificate" class="certificate_img">
+                  <p>Introduction to JavaScript</p>
+               </div>
+               <div class="certificate">
+                  <img src="./chaplaincy-cert.jpeg" alt="Introduction to JavaScript Certificate" class="certificate_img">
+                  <p>BUCC Chaplaincy Membership</p>
+               </div>
+               <div class="certificate">
+                  <img src="./crunch-certificate.jpeg" alt="Introduction to JavaScript Certificate" class="certificate_img">
+                  <p>BUCC Crunch Membership</p>
+               </div>
+            </div>
+         </div> -->
+      </div>
+    </section>
+
+   <!-- Projects Section -->
+    <section id="projects">
+      <div class="container project_container">
+         <h2>My Projects</h2>
+         <hr class="project_hr">
+         <!-- project carousel -->
+         <div class="cards">
+            <div class="card">
+               <img src="./catering-website.png" alt="catering website">
+               <div class="cardinfo">
+                  <h3>Catering Website Design</h3>
+                  <p>A simple home page design for a catering company. <br><br><b>Languages Used:</b> HTML, CSS</p>
+                  <a href="https://jocdev28.github.io/ssamyoung-catering/" target="_blank"><button class="project_btn">View Project</button></a>
+               </div>
+            </div>
+            <div class="card">
+               <img src="./movie-website.png" alt="Project Image">
+               <div class="cardinfo">
+                  <h3>Movie Website</h3>
+                  <p>An imitation of the landing page of a popular streaming site. <br><br><b>Languages Used:</b> HTML, CSS</p>
+                  <a href="https://jocdev28.github.io/kodflix/" target="_blank"><button class="project_btn">View Project</button></a>
+               </div>
+            </div>
+            <div class="card">
+               <img src="./portfolio-img.png" alt="Project Image">
+               <div class="cardinfo">
+                  <h3>Portfolio</h3>
+                  <p>That's the page you're currently on :D. A simple portfolio to display my projects. <br><br><b>Languages Used:</b> HTML, CSS</p>
+                  <button class="project_btn">View Project</button>
+               </div>
+            </div>
+            <!-- <div class="card">
+               <div class="cardinfo">
+                  <img src="" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, eius.</p>
+                  <button class="project_btn">View Project</button>
+               </div>
+            </div> -->
+         </div>
+      </div>
+    </section>
+
+   <!-- About Section -->
+    <section id="about">
+      <div class="container about_container">
+         <h2>About Me</h2>
+         <hr class="about_hr">
+         <div class="my_info">
+            <div class="myinfo-text">
+               <h4>A brief Intro</h4>
+               <p>
+                  My Name is Inioluwa Daniel. I'm currently a student, studying Computer Science at the School of Computing, Babcock University, Ilishan-remo Ogun State. 
+                  <br><br>
+                  I'm a very creative person, as I enjoy drawing, designing, storytelling, video editing, and so much more.
+                  <br><br>
+                  Although I'm currently into Web Design and Development, I have a growing interest in AI and Machine Learning, and I hope to become an AI Engineer in the near future.
+               </p>
+               <a href="mailto: jocdev28@gmail.com">
+                  <button class="contact_btn">Contact me</button>
+               </a>
+            </div>
+            <div class="myImage">
+               <img src="./myphoto4.jpeg" alt="My Image">
+            </div>
+         </div>
+      </div>
+    </section>
+
+   <!-- Footer/Contact Section -->
+    <section id="footer">
+      <div class="footer_container">
+         <div class="footer_links">
+            <a href="https://www.linkedin.com/in/inioluwa-daniel-2119a9318/" target="_blank">
+               <img src="./linkedin.svg" alt="LinkedIn Icon" class="footer_linkicon">
+               <p>LinkedIn</p>
+            </a>
+            <a href="https://x.com/jocdev28" target="_blank">
+               <img src="./twitter-x.svg" alt="X Icon" class="footer_linkicon">
+               <p>X</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCy4bTxuPlVPfs6lZU9t4XlA" target="_blank">
+               <img src="./youtube.svg" alt="Youtube Icon" class="footer_linkicon">
+               <p>Youtube</p>
+            </a>
+            <a href="https://github.com/jocdev28" target="_blank">
+               <img src="./github.svg" alt="Github Icon" class="footer_linkicon">
+               <p>Github</p>
+            </a>
+         </div>
+         <p class="copyright">
+            &copy; 2025 JocDev
+         </p>
+      </div>
+    </section>
+</body>
+</html>
